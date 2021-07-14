@@ -151,6 +151,36 @@ section{
 }
 /* Achievement ends here */
 
+/* Feedback start here */
+.feedback-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10% 0;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 10%;
+}
+.feedback{
+    padding: 1%;
+    margin: 3%;
+    border-radius:10px;
+    position: relative;
+    box-shadow:  0px 7px 29px 0px rgba(121, 121, 126, 0.521);
+    overflow: hidden;
+}
+.submit{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 2px 37%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+/* Feedback ends here */
+
+
+
 
 /* Footer section starts here */
 .footer-section{
